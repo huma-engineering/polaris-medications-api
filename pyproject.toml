@@ -6,10 +6,6 @@ authors = ["Andrew Gill <andrew.gill@sensynehealth.com>"]
 keywords = ["Medications", "Medicine"]
 repository = "https://github.com/draysontechnologies/dhos-medications-api"
 
-[[tool.poetry.source]]
-name = "sensynehealth"
-url = "https://pypi.fury.io/sensynehealth/"
-
 [tool.poetry.dependencies]
 python = "^3.9"
 connexion = {version = "2.*", extras = ["swagger-ui"]}
